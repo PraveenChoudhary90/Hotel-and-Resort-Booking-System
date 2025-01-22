@@ -39,7 +39,7 @@ const Crud = () => {
  
   return (
     <>
-      <table border="1px" style={{marginLeft:"0px",marginTop:"100px", border:"1px solid black"}}>
+      <table border="2" style={{marginLeft:"0px",marginTop:"100px", border:"1px solid black"}}>
         <thead>
           <th style={{paddingLeft:"40px"}}>ID</th>
           <th style={{paddingLeft:"40px"}}>Name</th>
