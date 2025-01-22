@@ -21,17 +21,6 @@
       "adult": "1",
       "children": "0",
       "id": "48f2"
-    },
-    {
-      "id": "5535",
-      "name": "rohit",
-      "email": "8520@gmail.com",
-      "phone": "90987654",
-      "room": "deluxeroom",
-      "arrival": "2025-01-27",
-      "departure": "2025-01-14",
-      "adult": "2",
-      "children": "1"
     }
   ]
 }

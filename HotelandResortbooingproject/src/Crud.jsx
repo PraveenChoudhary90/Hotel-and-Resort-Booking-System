@@ -39,7 +39,7 @@ const Crud = () => {
  
   return (
     <>
-      <table style={{marginLeft:"0px",marginTop:"100px"}}>
+      <table border="1px" style={{marginLeft:"0px",marginTop:"100px", border:"1px solid black"}}>
         <thead>
           <th style={{paddingLeft:"40px"}}>ID</th>
           <th style={{paddingLeft:"40px"}}>Name</th>
@@ -51,7 +51,7 @@ const Crud = () => {
           <th style={{paddingLeft:"40px"}}>Adults</th>
           <th style={{paddingLeft:"40px"}}>Children</th>
           <th style={{paddingLeft:"40px"}}>Delete</th>
-          <th style={{paddingLeft:"40px"}}>Update</th>
+          <th style={{paddingLeft:"20px"}}>Update</th>
         </thead>
         <tbody>
           {apidata.map((e) => { return <tr >
@@ -66,6 +66,9 @@ const Crud = () => {
               <td style={{padding:"30px",paddingLeft:"60px"}}>{e.children}</td>
               <td style={{padding:"30px",paddingLeft:"40px"}}>
                 <button onClick={() => mydel(e.id)} style={{border:"none"}}>Delete</button>
+              </td>
+               <td style={{padding:"30px",paddingLeft:"25px"}}>
+                <button onClick={() => mydel(e.id)} style={{border:"none"}}>update</button>
               </td>
             </tr>
           }
