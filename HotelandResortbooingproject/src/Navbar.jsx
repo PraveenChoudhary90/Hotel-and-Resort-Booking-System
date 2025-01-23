@@ -6,7 +6,7 @@ const Navbar=()=>{
         <>
         <div id="Navbar" >
             <div id="nav1" >
-       <h3>CLIFTON HOTEL & RESORT</h3>
+       <h3 style={{marginBottom:"20px"}}>CLIFTON HOTEL & RESORT</h3>
         </div>
         <div id="nav2">
         <ul>
