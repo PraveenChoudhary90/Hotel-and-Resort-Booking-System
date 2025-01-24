@@ -18,6 +18,7 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <>
+    <div id="booking">
       <div id="back">
         <h1 id="header">Clifton Hotel & Resort</h1>
         <h3 id="header1" style={{padding:"40px",width:"650px"}}>
@@ -209,6 +210,7 @@ const Home = () => {
       </div>
       <div id="brand">
         <h1>Clifton Hotel And Resort</h1>
+      </div>
       </div>
 
     </>
