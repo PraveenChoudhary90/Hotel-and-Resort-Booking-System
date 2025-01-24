@@ -5,10 +5,14 @@ const Navbar=()=>{
     return(
         <>
         <div id="Navbar" >
+      <input type="checkbox" id="click" />
+
+
             <div id="nav1" >
        <h3 style={{marginBottom:"20px"}}>CLIFTON HOTEL & RESORT</h3>
         </div>
         <div id="nav2">
+
         <ul>
         <li><Link to="/">HOME</Link></li>
         <li><Link  to="room">ROOMS</Link></li>
@@ -19,7 +23,10 @@ const Navbar=()=>{
         <li><Link to="singup">SING-UP</Link></li>
         {/* <li><Link to="crude">CRUDE</Link></li> */}
         <li><Link to="login" >LOGIN</Link></li>
+          <label for="click"><Link class="fa-solid fa-bars"></Link></label>
+
         </ul>
+
         </div>  
         </div>
         <main><Outlet/></main>

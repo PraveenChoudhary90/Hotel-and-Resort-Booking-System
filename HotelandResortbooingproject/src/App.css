@@ -353,6 +353,47 @@ flex-direction: column;
 }
 
 
+label{
+    
+    display: none;
+}
+#click{
+    display: none;
+}
+
+
+
+
+/* media query */
+/* media query for tablet view */
+@media screen and (max-width:768px){
+
+  
+    label{
+        display: block;
+    }
+    #Navbar #nav2 ul {
+       color: red;
+        display: block;
+
+    }
+    #click:checked ~ #Navbar #nav2 ul {
+        display: block;
+    }
+
+
+     #Navbar{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: lightgray;
+  position: fixed;
+  width: 750px;
+
+}
+}
 
 
 
