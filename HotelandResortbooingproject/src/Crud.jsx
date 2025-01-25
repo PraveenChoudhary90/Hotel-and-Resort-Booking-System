@@ -72,6 +72,7 @@ const Crud = () => {
 
   return (
     <>
+      <h1 style={{alignItems:"center", display:"flex", justifyContent:"center",color:"red" }}   >User Data Page</h1>
       <Button variant="primary" onClick={handleAddShow}>
         Add Users
       </Button>
