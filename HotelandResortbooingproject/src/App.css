@@ -34,7 +34,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 
 }
 
 #back{
-  background-image: url(./pict3.jpg);
+  background-image: url(/pict3.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
