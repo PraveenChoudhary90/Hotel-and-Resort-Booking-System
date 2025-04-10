@@ -1,16 +1,6 @@
+
 {
   "Members": [
-    {
-      "name": "PraveenChoudhary",
-      "email": "pradum@gmail.com",
-      "phone": "9098765445435",
-      "room": "singleroom",
-      "arrival": "2025-01-30",
-      "departure": "2025-01-13",
-      "adult": "2",
-      "children": "1",
-      "id": "ee4d"
-    },
     {
       "name": "rohit",
       "email": "pc852180@gmail.com",
@@ -35,12 +25,23 @@
     },
     {
       "id": "897f",
-      "name": "pradum",
+      "name": "rinku",
       "email": "8520@gmail.com",
       "phone": "6677674",
       "room": "standardroom",
       "arrival": "2025-01-07",
       "departure": "2025-01-24",
+      "adult": "2",
+      "children": "1"
+    },
+    {
+      "id": "efd6",
+      "name": "praveen",
+      "email": "pc852180@gmail.com",
+      "phone": "909876546",
+      "room": "deluxeroom",
+      "arrival": "2025-01-21",
+      "departure": "2025-01-21",
       "adult": "2",
       "children": "1"
     }
